@@ -152,7 +152,7 @@ export const Botside = styled.div`
     align-items: center;
 `;
 
-export const Avatar = styled.div`
+export const Avatar = styled.img`
     width: 39px;
     height: 39px;
 

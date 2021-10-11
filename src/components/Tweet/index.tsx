@@ -26,7 +26,7 @@ const Tweet: React.FC = () => {
             Você retweetou
         </Retweeted>
         <Body>
-            <Avatar/>
+            <Avatar src="https://i.ibb.co/fSMPFvy/juan.png"/>
 
             <Content>
                 <Header>
@@ -36,7 +36,7 @@ const Tweet: React.FC = () => {
                     <time>27 de jun</time>
                 </Header>
 
-                <Description>Ré de foguete é a queda</Description>
+                <Description>Isso ficou muito lindo</Description>
 
                 <ImageContent />
 

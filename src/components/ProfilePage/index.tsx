@@ -16,8 +16,7 @@ const ProfilePage: React.FC = () => {
   return (
     <Container>
         <Banner>
-            <Avatar />
-
+            <Avatar src="https://i.ibb.co/fSMPFvy/juan.png"/>
         </Banner>
 
         <ProfileData>
@@ -27,18 +26,21 @@ const ProfilePage: React.FC = () => {
             <h2>@juandmalencar</h2>
 
             <p>
-                instagram do lindo: <a href="https://instagram.com/juan._alencar">@juan._alencar</a>
+                Meu perfil do <a href="https://www.linkedin.com/in/juan-alencar/">LinkedIn</a> | 
+                Repositório dessa página no <a href="https://github.com/juan-alencar/twitter-clone">GitHub</a> | 
             </p>
+
             <ul>
                 <li>
                     <LocationIcon />
-                    Patos, Brasil
+                    Paraíba, Brasil
                 </li>
                 <li>
                     <CakeIcon />
                     Nascido em 24 de dezembro de 2002
                 </li>
             </ul>
+
             <Followage>
                 <span>
                     <strong>94</strong> Seguindo 

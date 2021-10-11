@@ -55,7 +55,7 @@ const MenuBar: React.FC = () => {
         </TopSide>
 
         <Botside>
-            <Avatar/>
+            <Avatar src="https://i.ibb.co/fSMPFvy/juan.png"/>
 
             <ProfileData>
                 <strong>Juan Alencar</strong>
