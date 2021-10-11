@@ -22,13 +22,14 @@ export const Header = styled.div`
 
     display: flex;
     align-items: center;
+
     text-align: left;
 
 
     padding: 8px 0 9px 13px;
     border-bottom: 1px solid var(--outline);
 
-    >button{
+    > button {
         padding: 8px;
         border-radius: 50%;
 
@@ -85,6 +86,11 @@ export const BottomMenu = styled.div`
         display: none;
     }
 
+`;
+
+export const BottomDiv = styled.div`
+    bottom: 0;
+    height: 47px;
 `;
 
 const iconCSS = css`

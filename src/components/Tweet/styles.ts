@@ -14,7 +14,7 @@ const iconCSS = css`
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 14px 16px !important; 
+    padding: 14px 16px; 
     border-bottom : 1px solid var(--outline);
     max-width: 100%;
 `;
@@ -22,9 +22,8 @@ export const Container = styled.div`
 export const Retweeted = styled.div`
     display: flex;
     align-items: center;
-    color: var(--gray);
-    font-weight: normal;
     font-size: 13px;
+    color: var(--gray);
 `;
 
 export const RocketseatIcon = styled(Retweet)`
@@ -95,7 +94,6 @@ export const Description = styled.p`
 `;
 
 export const ImageContent = styled.div`
-    display: flex;
     margin-top: 12px;
     width: 100%;
     height: min(285px, max(175px, 41vw));
@@ -144,5 +142,5 @@ export const RetweetIcon = styled(Retweet)`
     `;
 export const LikeIcon = styled(Heart)`
     ${iconCSS}
-        fill: var(--like);
+    fill: var(--like);
 `;

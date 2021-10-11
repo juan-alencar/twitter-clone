@@ -5,7 +5,8 @@ import {
     Header, 
     BackIcon, 
     ProfileInfo, 
-    BottomMenu, 
+    BottomMenu,
+    BottomDiv, 
     HomeIcon, 
     SearchIcon,
     BellIcon,
@@ -37,6 +38,8 @@ const Main: React.FC = () => {
             <BellIcon />
             <EmailIcon />
           </BottomMenu>
+          
+          <BottomDiv />
       </Container>
   );
 }
